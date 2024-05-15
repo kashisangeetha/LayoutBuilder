@@ -4,8 +4,8 @@ import {Link} from 'react-router-dom'
 import './index.css'
 
 const TeamCard = props => {
-  const {teamsDetails} = props
-  const {name, id, teamImageURL} = teamsDetails
+  const {teamDetails} = props
+  const {name, id, teamImageURL} = teamDetails
 
   return (
     <li className="list-item">
